@@ -95,3 +95,27 @@ th {
 
 
 /* fine sezione tabella */
+
+
+
+/* sezione foto */
+
+h2 {
+    font-size: 1.1em;
+    color: gray;
+}
+
+.article-image {
+    width: 250px;
+    height: 180px;
+
+    margin-bottom: 12px;
+
+    background-size: 100% 100%;
+
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* fine sezione foto */
