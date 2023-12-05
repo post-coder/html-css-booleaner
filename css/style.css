@@ -1,4 +1,5 @@
 
+/* nav */
 nav {
     /* quando scriviamo un url RELATIVO (che non inizia con https://... */
     /* dobbiamo specificare il percorso da seguire 
@@ -17,3 +18,22 @@ nav {
     width: 160px;
     height: auto;
 }
+
+/* fine nav */
+
+
+/* header */
+
+#author {
+    color: #7a7a7a;
+}
+
+#date {
+    color: #7a7a7a;
+    /* l'unità di misura em indica una proporzione
+    con la dimensione del testo standard della pagina */
+    /* font-size: 0.8em; */
+    font-size: 12px;
+}
+
+/* fine header */
