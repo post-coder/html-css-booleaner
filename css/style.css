@@ -64,3 +64,24 @@ figure {
 
 
 /* fine sezioni testi */
+
+
+
+/* sezione tabella */
+table {
+    /* border-spacing: 0px; */
+    border-collapse: collapse;
+}
+
+
+thead {
+    background-color: #20a9e5;
+    color: white;
+}
+
+
+.lightblue-background {
+    background-color: #b1e5f2;
+}
+
+/* fine sezione tabella */
