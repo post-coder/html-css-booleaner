@@ -1,0 +1,19 @@
+
+nav {
+    /* quando scriviamo un url RELATIVO (che non inizia con https://... */
+    /* dobbiamo specificare il percorso da seguire 
+    IN BASE A DOVE è PRESENTE IL FILE DI PARTENZA
+    */
+    /* background-image: url("/img/pattern.png")
+     */
+    background-color: #4ea0ff;
+
+    /* DA FIXARE */
+}
+
+
+/* bersaglio il mio logo */
+#logo {
+    width: 160px;
+    height: auto;
+}
