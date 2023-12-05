@@ -28,6 +28,11 @@ nav {
     color: #7a7a7a;
 }
 
+#author-link {
+    color: #4ea0ff;
+    text-decoration: none;
+}
+
 #date {
     color: #7a7a7a;
     /* l'unità di misura em indica una proporzione
