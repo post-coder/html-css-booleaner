@@ -1,0 +1,150 @@
+
+/* nav */
+nav {
+    /* quando scriviamo un url RELATIVO (che non inizia con https://... */
+    /* dobbiamo specificare il percorso da seguire 
+    IN BASE A DOVE è PRESENTE IL FILE DI PARTENZA
+    */
+    /* background-image: url("/img/pattern.png")
+     */
+    background-color: #4ea0ff;
+
+    /* DA FIXARE */
+
+
+    background-image: url('../img/pattern.png');
+    background-size: auto 200%;
+
+}
+
+
+/* bersaglio il mio logo */
+#logo {
+    width: 160px;
+    height: auto;
+
+    margin-top: 24px;
+    margin-bottom: 12px;
+    margin-left: 6px;
+}
+
+/* fine nav */
+
+
+
+/* stilizzazione bonus article */
+
+
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+/* fine stilizzazione bonus article */
+
+
+
+
+/* header */
+
+#author {
+    color: #7a7a7a;
+}
+
+#author-link {
+    color: #4ea0ff;
+    text-decoration: none;
+}
+
+#date {
+    color: #7a7a7a;
+    /* l'unità di misura em indica una proporzione
+    con la dimensione del testo standard della pagina */
+    /* font-size: 0.8em; */
+    font-size: 12px;
+}
+
+/* fine header */
+
+
+/* sezione foto */
+
+figure {
+    margin: 0px;
+}
+
+/* fine sezione foto */
+
+
+/* sezioni testi */
+
+/* il tag <mark> fa tutto questo per noi
+ .evidenziazione {
+    background-color: #ffff00;
+} 
+*/
+
+
+
+/* fine sezioni testi */
+
+
+
+/* sezione tabella */
+table {
+    /* border-spacing: 0px; */
+    border-collapse: collapse;
+}
+
+
+thead {
+    background-color: #20a9e5;
+    color: white;
+}
+
+th {
+    text-align: left;
+}
+
+
+.lightblue-background {
+    background-color: #b1e5f2;
+}
+
+.colonna-25 {
+    width: 25%;
+}
+
+
+
+/* fine sezione tabella */
+
+
+
+/* sezione foto */
+
+h2 {
+    font-size: 1.1em;
+    color: gray;
+}
+
+.article-image {
+    width: 250px;
+    height: 180px;
+
+    margin-bottom: 12px;
+
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.article-image-title {
+    margin-left: 8px;
+}
+
+/* fine sezione foto */
